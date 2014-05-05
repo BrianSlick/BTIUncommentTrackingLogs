@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3659B4BC1916D0040076E724 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3659B4BB1916D0040076E724 /* Automator.framework */; };
+		3659B4BE1916D0040076E724 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3659B4BD1916D0040076E724 /* Cocoa.framework */; };
+		3659B4C81916D0040076E724 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3659B4C61916D0040076E724 /* InfoPlist.strings */; };
+		3659B4CB1916D0040076E724 /* BTIUncommentTrackingLogs.m in Sources */ = {isa = PBXBuildFile; fileRef = 3659B4CA1916D0040076E724 /* BTIUncommentTrackingLogs.m */; };
+		3659B4CE1916D0040076E724 /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3659B4CC1916D0040076E724 /* main.xib */; };
+		3659B4DA1916D0570076E724 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3659B4BD1916D0040076E724 /* Cocoa.framework */; };
+		3659B4E01916D0570076E724 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3659B4DE1916D0570076E724 /* InfoPlist.strings */; };
+		3659B4E21916D0570076E724 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3659B4E11916D0570076E724 /* main.m */; };
+		3659B4E61916D0570076E724 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3659B4E41916D0570076E724 /* Credits.rtf */; };
+		3659B4E91916D0570076E724 /* BTIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3659B4E81916D0570076E724 /* BTIAppDelegate.m */; };
+		3659B4EC1916D0570076E724 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3659B4EA1916D0570076E724 /* MainMenu.xib */; };
+		3659B4EE1916D0570076E724 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3659B4ED1916D0570076E724 /* Images.xcassets */; };
+		3659B4F51916D0570076E724 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3659B4F41916D0570076E724 /* XCTest.framework */; };
+		3659B4F61916D0570076E724 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3659B4BD1916D0040076E724 /* Cocoa.framework */; };
+		3659B4FE1916D0570076E724 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3659B4FC1916D0570076E724 /* InfoPlist.strings */; };
+		3659B5001916D0570076E724 /* BTITestUncommentTrackingLogsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3659B4FF1916D0570076E724 /* BTITestUncommentTrackingLogsTests.m */; };
+		3659B50A1916D40F0076E724 /* BTIStringProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3659B5091916D40F0076E724 /* BTIStringProcessor.m */; };
+		3659B50C191710E30076E724 /* livetest.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3659B50B191710E30076E724 /* livetest.txt */; };
+		3659B50D191711200076E724 /* BTIStringProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3659B5091916D40F0076E724 /* BTIStringProcessor.m */; };
+		3659B5111917131D0076E724 /* test1output.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3659B5101917131D0076E724 /* test1output.txt */; };
+		3659B5121917134D0076E724 /* test1input-uncommentBTIlog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3659B50E191712D90076E724 /* test1input-uncommentBTIlog.txt */; };
+		3659B513191713530076E724 /* test1input-uncommentBTIlog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3659B50E191712D90076E724 /* test1input-uncommentBTIlog.txt */; };
+		3659B514191713560076E724 /* test1output.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3659B5101917131D0076E724 /* test1output.txt */; };
+		3659B516191713AC0076E724 /* test2input-uncommentNSLog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3659B515191713AC0076E724 /* test2input-uncommentNSLog.txt */; };
+		3659B517191713AC0076E724 /* test2input-uncommentNSLog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3659B515191713AC0076E724 /* test2input-uncommentNSLog.txt */; };
+		3659B519191713BE0076E724 /* test2output.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3659B518191713BE0076E724 /* test2output.txt */; };
+		3659B51A191713BE0076E724 /* test2output.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3659B518191713BE0076E724 /* test2output.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3659B4F71916D0570076E724 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3659B4AF1916D0040076E724 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3659B4D81916D0570076E724;
+			remoteInfo = BTITestUncommentTrackingLogs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3659B4B81916D0040076E724 /* BTIUncommentTrackingLogs.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTIUncommentTrackingLogs.action; sourceTree = BUILT_PRODUCTS_DIR; };
+		3659B4BB1916D0040076E724 /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = System/Library/Frameworks/Automator.framework; sourceTree = SDKROOT; };
+		3659B4BD1916D0040076E724 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3659B4C01916D0040076E724 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3659B4C11916D0040076E724 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3659B4C21916D0040076E724 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3659B4C51916D0040076E724 /* BTIUncommentTrackingLogs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTIUncommentTrackingLogs-Info.plist"; sourceTree = "<group>"; };
+		3659B4C71916D0040076E724 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3659B4C91916D0040076E724 /* BTIUncommentTrackingLogs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTIUncommentTrackingLogs.h; sourceTree = "<group>"; };
+		3659B4CA1916D0040076E724 /* BTIUncommentTrackingLogs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTIUncommentTrackingLogs.m; sourceTree = "<group>"; };
+		3659B4CD1916D0040076E724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/main.xib; sourceTree = "<group>"; };
+		3659B4CF1916D0040076E724 /* BTIUncommentTrackingLogs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTIUncommentTrackingLogs-Prefix.pch"; sourceTree = "<group>"; };
+		3659B4D91916D0570076E724 /* BTITestUncommentTrackingLogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTITestUncommentTrackingLogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3659B4DD1916D0570076E724 /* BTITestUncommentTrackingLogs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTITestUncommentTrackingLogs-Info.plist"; sourceTree = "<group>"; };
+		3659B4DF1916D0570076E724 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3659B4E11916D0570076E724 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3659B4E31916D0570076E724 /* BTITestUncommentTrackingLogs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTITestUncommentTrackingLogs-Prefix.pch"; sourceTree = "<group>"; };
+		3659B4E51916D0570076E724 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3659B4E71916D0570076E724 /* BTIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTIAppDelegate.h; sourceTree = "<group>"; };
+		3659B4E81916D0570076E724 /* BTIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTIAppDelegate.m; sourceTree = "<group>"; };
+		3659B4EB1916D0570076E724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3659B4ED1916D0570076E724 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3659B4F31916D0570076E724 /* BTITestUncommentTrackingLogsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTITestUncommentTrackingLogsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3659B4F41916D0570076E724 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3659B4FB1916D0570076E724 /* BTITestUncommentTrackingLogsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTITestUncommentTrackingLogsTests-Info.plist"; sourceTree = "<group>"; };
+		3659B4FD1916D0570076E724 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3659B4FF1916D0570076E724 /* BTITestUncommentTrackingLogsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTITestUncommentTrackingLogsTests.m; sourceTree = "<group>"; };
+		3659B5081916D40F0076E724 /* BTIStringProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTIStringProcessor.h; sourceTree = "<group>"; };
+		3659B5091916D40F0076E724 /* BTIStringProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTIStringProcessor.m; sourceTree = "<group>"; };
+		3659B50B191710E30076E724 /* livetest.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = livetest.txt; sourceTree = "<group>"; };
+		3659B50E191712D90076E724 /* test1input-uncommentBTIlog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test1input-uncommentBTIlog.txt"; sourceTree = "<group>"; };
+		3659B5101917131D0076E724 /* test1output.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test1output.txt; sourceTree = "<group>"; };
+		3659B515191713AC0076E724 /* test2input-uncommentNSLog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test2input-uncommentNSLog.txt"; sourceTree = "<group>"; };
+		3659B518191713BE0076E724 /* test2output.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test2output.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3659B4B41916D0040076E724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3659B4BE1916D0040076E724 /* Cocoa.framework in Frameworks */,
+				3659B4BC1916D0040076E724 /* Automator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3659B4D61916D0570076E724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3659B4DA1916D0570076E724 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3659B4F01916D0570076E724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3659B4F61916D0570076E724 /* Cocoa.framework in Frameworks */,
+				3659B4F51916D0570076E724 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3659B4AE1916D0040076E724 = {
+			isa = PBXGroup;
+			children = (
+				3659B5071916D3E70076E724 /* Models */,
+				3659B4C31916D0040076E724 /* BTIUncommentTrackingLogs Automator Action */,
+				3659B4DB1916D0570076E724 /* BTITestUncommentTrackingLogs */,
+				3659B4F91916D0570076E724 /* BTITestUncommentTrackingLogsTests */,
+				3659B4BA1916D0040076E724 /* Frameworks */,
+				3659B4B91916D0040076E724 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3659B4B91916D0040076E724 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3659B4B81916D0040076E724 /* BTIUncommentTrackingLogs.action */,
+				3659B4D91916D0570076E724 /* BTITestUncommentTrackingLogs.app */,
+				3659B4F31916D0570076E724 /* BTITestUncommentTrackingLogsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3659B4BA1916D0040076E724 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3659B4BB1916D0040076E724 /* Automator.framework */,
+				3659B4BD1916D0040076E724 /* Cocoa.framework */,
+				3659B4F41916D0570076E724 /* XCTest.framework */,
+				3659B4BF1916D0040076E724 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3659B4BF1916D0040076E724 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3659B4C01916D0040076E724 /* Foundation.framework */,
+				3659B4C11916D0040076E724 /* CoreData.framework */,
+				3659B4C21916D0040076E724 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3659B4C31916D0040076E724 /* BTIUncommentTrackingLogs Automator Action */ = {
+			isa = PBXGroup;
+			children = (
+				3659B4C91916D0040076E724 /* BTIUncommentTrackingLogs.h */,
+				3659B4CA1916D0040076E724 /* BTIUncommentTrackingLogs.m */,
+				3659B4CC1916D0040076E724 /* main.xib */,
+				3659B4C41916D0040076E724 /* Supporting Files */,
+			);
+			name = "BTIUncommentTrackingLogs Automator Action";
+			path = BTIUncommentTrackingLogs;
+			sourceTree = "<group>";
+		};
+		3659B4C41916D0040076E724 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3659B4C51916D0040076E724 /* BTIUncommentTrackingLogs-Info.plist */,
+				3659B4C61916D0040076E724 /* InfoPlist.strings */,
+				3659B4CF1916D0040076E724 /* BTIUncommentTrackingLogs-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3659B4DB1916D0570076E724 /* BTITestUncommentTrackingLogs */ = {
+			isa = PBXGroup;
+			children = (
+				3659B4E71916D0570076E724 /* BTIAppDelegate.h */,
+				3659B4E81916D0570076E724 /* BTIAppDelegate.m */,
+				3659B50B191710E30076E724 /* livetest.txt */,
+				3659B4EA1916D0570076E724 /* MainMenu.xib */,
+				3659B4ED1916D0570076E724 /* Images.xcassets */,
+				3659B4DC1916D0570076E724 /* Supporting Files */,
+			);
+			path = BTITestUncommentTrackingLogs;
+			sourceTree = "<group>";
+		};
+		3659B4DC1916D0570076E724 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3659B4DD1916D0570076E724 /* BTITestUncommentTrackingLogs-Info.plist */,
+				3659B4DE1916D0570076E724 /* InfoPlist.strings */,
+				3659B4E11916D0570076E724 /* main.m */,
+				3659B4E31916D0570076E724 /* BTITestUncommentTrackingLogs-Prefix.pch */,
+				3659B4E41916D0570076E724 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3659B4F91916D0570076E724 /* BTITestUncommentTrackingLogsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3659B4FF1916D0570076E724 /* BTITestUncommentTrackingLogsTests.m */,
+				3659B50E191712D90076E724 /* test1input-uncommentBTIlog.txt */,
+				3659B5101917131D0076E724 /* test1output.txt */,
+				3659B515191713AC0076E724 /* test2input-uncommentNSLog.txt */,
+				3659B518191713BE0076E724 /* test2output.txt */,
+				3659B4FA1916D0570076E724 /* Supporting Files */,
+			);
+			path = BTITestUncommentTrackingLogsTests;
+			sourceTree = "<group>";
+		};
+		3659B4FA1916D0570076E724 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3659B4FB1916D0570076E724 /* BTITestUncommentTrackingLogsTests-Info.plist */,
+				3659B4FC1916D0570076E724 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3659B5071916D3E70076E724 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3659B5081916D40F0076E724 /* BTIStringProcessor.h */,
+				3659B5091916D40F0076E724 /* BTIStringProcessor.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3659B4B71916D0040076E724 /* BTIUncommentTrackingLogs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3659B4D21916D0040076E724 /* Build configuration list for PBXNativeTarget "BTIUncommentTrackingLogs" */;
+			buildPhases = (
+				3659B4B31916D0040076E724 /* Sources */,
+				3659B4B41916D0040076E724 /* Frameworks */,
+				3659B4B51916D0040076E724 /* Resources */,
+				3659B4B61916D0040076E724 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTIUncommentTrackingLogs;
+			productName = BTIUncommentTrackingLogs;
+			productReference = 3659B4B81916D0040076E724 /* BTIUncommentTrackingLogs.action */;
+			productType = "com.apple.product-type.bundle";
+		};
+		3659B4D81916D0570076E724 /* BTITestUncommentTrackingLogs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3659B5011916D0570076E724 /* Build configuration list for PBXNativeTarget "BTITestUncommentTrackingLogs" */;
+			buildPhases = (
+				3659B4D51916D0570076E724 /* Sources */,
+				3659B4D61916D0570076E724 /* Frameworks */,
+				3659B4D71916D0570076E724 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTITestUncommentTrackingLogs;
+			productName = BTITestUncommentTrackingLogs;
+			productReference = 3659B4D91916D0570076E724 /* BTITestUncommentTrackingLogs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3659B4F21916D0570076E724 /* BTITestUncommentTrackingLogsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3659B5041916D0570076E724 /* Build configuration list for PBXNativeTarget "BTITestUncommentTrackingLogsTests" */;
+			buildPhases = (
+				3659B4EF1916D0570076E724 /* Sources */,
+				3659B4F01916D0570076E724 /* Frameworks */,
+				3659B4F11916D0570076E724 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3659B4F81916D0570076E724 /* PBXTargetDependency */,
+			);
+			name = BTITestUncommentTrackingLogsTests;
+			productName = BTITestUncommentTrackingLogsTests;
+			productReference = 3659B4F31916D0570076E724 /* BTITestUncommentTrackingLogsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3659B4AF1916D0040076E724 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "BriTer Ideas LLC";
+				TargetAttributes = {
+					3659B4F21916D0570076E724 = {
+						TestTargetID = 3659B4D81916D0570076E724;
+					};
+				};
+			};
+			buildConfigurationList = 3659B4B21916D0040076E724 /* Build configuration list for PBXProject "BTIUncommentTrackingLogs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3659B4AE1916D0040076E724;
+			productRefGroup = 3659B4B91916D0040076E724 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3659B4B71916D0040076E724 /* BTIUncommentTrackingLogs */,
+				3659B4D81916D0570076E724 /* BTITestUncommentTrackingLogs */,
+				3659B4F21916D0570076E724 /* BTITestUncommentTrackingLogsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3659B4B51916D0040076E724 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3659B4CE1916D0040076E724 /* main.xib in Resources */,
+				3659B4C81916D0040076E724 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3659B4D71916D0570076E724 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3659B519191713BE0076E724 /* test2output.txt in Resources */,
+				3659B514191713560076E724 /* test1output.txt in Resources */,
+				3659B4E01916D0570076E724 /* InfoPlist.strings in Resources */,
+				3659B5121917134D0076E724 /* test1input-uncommentBTIlog.txt in Resources */,
+				3659B516191713AC0076E724 /* test2input-uncommentNSLog.txt in Resources */,
+				3659B50C191710E30076E724 /* livetest.txt in Resources */,
+				3659B4EE1916D0570076E724 /* Images.xcassets in Resources */,
+				3659B4E61916D0570076E724 /* Credits.rtf in Resources */,
+				3659B4EC1916D0570076E724 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3659B4F11916D0570076E724 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3659B4FE1916D0570076E724 /* InfoPlist.strings in Resources */,
+				3659B513191713530076E724 /* test1input-uncommentBTIlog.txt in Resources */,
+				3659B51A191713BE0076E724 /* test2output.txt in Resources */,
+				3659B5111917131D0076E724 /* test1output.txt in Resources */,
+				3659B517191713AC0076E724 /* test2input-uncommentNSLog.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3659B4B61916D0040076E724 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "amlint \"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3659B4B31916D0040076E724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3659B4CB1916D0040076E724 /* BTIUncommentTrackingLogs.m in Sources */,
+				3659B50A1916D40F0076E724 /* BTIStringProcessor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3659B4D51916D0570076E724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3659B4E91916D0570076E724 /* BTIAppDelegate.m in Sources */,
+				3659B50D191711200076E724 /* BTIStringProcessor.m in Sources */,
+				3659B4E21916D0570076E724 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3659B4EF1916D0570076E724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3659B5001916D0570076E724 /* BTITestUncommentTrackingLogsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3659B4F81916D0570076E724 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3659B4D81916D0570076E724 /* BTITestUncommentTrackingLogs */;
+			targetProxy = 3659B4F71916D0570076E724 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3659B4C61916D0040076E724 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3659B4C71916D0040076E724 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3659B4CC1916D0040076E724 /* main.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3659B4CD1916D0040076E724 /* Base */,
+			);
+			name = main.xib;
+			sourceTree = "<group>";
+		};
+		3659B4DE1916D0570076E724 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3659B4DF1916D0570076E724 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3659B4E41916D0570076E724 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3659B4E51916D0570076E724 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3659B4EA1916D0570076E724 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3659B4EB1916D0570076E724 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		3659B4FC1916D0570076E724 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3659B4FD1916D0570076E724 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3659B4D01916D0040076E724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3659B4D11916D0040076E724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3659B4D31916D0040076E724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTIUncommentTrackingLogs/BTIUncommentTrackingLogs-Prefix.pch";
+				INFOPLIST_FILE = "BTIUncommentTrackingLogs/BTIUncommentTrackingLogs-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Debug;
+		};
+		3659B4D41916D0040076E724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTIUncommentTrackingLogs/BTIUncommentTrackingLogs-Prefix.pch";
+				INFOPLIST_FILE = "BTIUncommentTrackingLogs/BTIUncommentTrackingLogs-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Release;
+		};
+		3659B5021916D0570076E724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTITestUncommentTrackingLogs/BTITestUncommentTrackingLogs-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BTITestUncommentTrackingLogs/BTITestUncommentTrackingLogs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3659B5031916D0570076E724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTITestUncommentTrackingLogs/BTITestUncommentTrackingLogs-Prefix.pch";
+				INFOPLIST_FILE = "BTITestUncommentTrackingLogs/BTITestUncommentTrackingLogs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3659B5051916D0570076E724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BTITestUncommentTrackingLogs.app/Contents/MacOS/BTITestUncommentTrackingLogs";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTITestUncommentTrackingLogs/BTITestUncommentTrackingLogs-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BTITestUncommentTrackingLogsTests/BTITestUncommentTrackingLogsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3659B5061916D0570076E724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BTITestUncommentTrackingLogs.app/Contents/MacOS/BTITestUncommentTrackingLogs";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTITestUncommentTrackingLogs/BTITestUncommentTrackingLogs-Prefix.pch";
+				INFOPLIST_FILE = "BTITestUncommentTrackingLogsTests/BTITestUncommentTrackingLogsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3659B4B21916D0040076E724 /* Build configuration list for PBXProject "BTIUncommentTrackingLogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3659B4D01916D0040076E724 /* Debug */,
+				3659B4D11916D0040076E724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3659B4D21916D0040076E724 /* Build configuration list for PBXNativeTarget "BTIUncommentTrackingLogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3659B4D31916D0040076E724 /* Debug */,
+				3659B4D41916D0040076E724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3659B5011916D0570076E724 /* Build configuration list for PBXNativeTarget "BTITestUncommentTrackingLogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3659B5021916D0570076E724 /* Debug */,
+				3659B5031916D0570076E724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3659B5041916D0570076E724 /* Build configuration list for PBXNativeTarget "BTITestUncommentTrackingLogsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3659B5051916D0570076E724 /* Debug */,
+				3659B5061916D0570076E724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3659B4AF1916D0040076E724 /* Project object */;
+}
